@@ -1,0 +1,206 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: black;
+  background-image: url("https://github.com/Chris-Hesterman/ch-images/blob/master/butcher2.jpg?raw=true");
+  background-position: 0px -50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5vh 5vw 0 5vw;
+  min-height: 100vh;
+}
+
+#butcher {
+  font-family: 'Nosifer', cursive;
+  font-size: 5rem;
+  color: red;
+  text-shadow: 3px 3px 3px black;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+#playlist {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 4rem;
+  color: rgb(191, 5, 11);
+  margin-top: 0; 
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+input {
+  width: 500px;
+  font-size: 2rem;
+  border: 2px solid #990000;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  color: red;
+  background: rgba(0, 0, 0, .8);
+}
+
+input::placeholder {
+  color: red;
+}
+
+#done {
+  margin-top: 2%;
+  padding-top: 5px;
+  font-size: 2rem;
+  font-family: 'Nosifer', cursive;
+  font-weight: bold;
+  color: rgb(191, 5, 11);
+  background-color: #000000;
+  border: 2px solid #990000;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px black;
+}
+
+button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 1px 1px 3px grey;
+}
+
+a#credits {
+  color: red;
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+ul {
+  background-color: white;
+  padding-top: 5%;
+  padding-left:%;
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.liststyle {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.class1 {
+  font-size: 6.5rem;
+}
+.class2 {
+  font-size: 3rem;
+}
+.class3 {
+  font-size: 5rem;
+}
+
+@media (max-width: 1024px) {
+  #butcher {
+    font-size: 6rem;
+  }
+  #playlist {
+    font-size: 5rem;
+  }
+  body {
+    background-position: -650px -50px;
+  }
+  input {
+    width: 75vw;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: -450px -50px;
+  }
+  #butcher {
+    font-size: 5rem;
+  }
+  #playlist {
+    font-size: 4rem;
+  }
+  input {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #butcher {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  #playlist {
+    font-size: 2.25rem;
+  }
+  input {
+    font-size: 1.25rem;
+  }
+  #done {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background-position: -300px -30px;
+  }
+  #butcher {
+    margin-top: 30px;
+    font-size: 2.25rem;
+  }
+  #playlist {
+    font-size: 1.8rem;
+  }
+  input {
+    font-size: .95rem;
+  }
+  #done {
+    font-size: 1rem;
+  }
+}
+
+@media only screen 
+  and (device-width : 375px) 
+  and (device-height : 812px) 
+  and (-webkit-device-pixel-ratio : 3) {
+  body {
+    background-position: -450px -50px;
+  }
+    #butcher {
+      margin-top: 90px;
+      font-size: 2.7rem;
+    }
+    #playlist {
+      font-size: 2.2rem;
+    }
+    input {
+      font-size: 1.13rem;
+    }
+}
+
+
+
+
+
+
+
